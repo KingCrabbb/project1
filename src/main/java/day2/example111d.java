@@ -1,8 +1,8 @@
-package btvnday2;
+package day2;
 
 import java.util.Scanner;
 
-public class example111c {
+public class example111d {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
@@ -10,7 +10,12 @@ public class example111c {
         int n = sc.nextInt();
         for ( int i = 1 ; i <= n; i++) {
             for (int j  = 1 ; j<= i;j++) {
-                System.out.print("* ");
+                if(j==1||j==i||i==n) {
+                    System.out.print("*\t");
+                }
+                else{
+                    System.out.print(" \t");
+                }
             }
             System.out.println("");
         }

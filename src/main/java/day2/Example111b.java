@@ -1,6 +1,5 @@
-package btvnday2;
+package day2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Example111b {

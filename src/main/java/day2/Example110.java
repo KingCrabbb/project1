@@ -1,4 +1,4 @@
-package btvnday2;
+package day2;
 
 import java.util.Scanner;
 
